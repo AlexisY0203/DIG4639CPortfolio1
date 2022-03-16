@@ -1,7 +1,7 @@
 import './App.css';
 import ShortBio from './components/ShortBio';
 import SomePosts from './components/SomePosts';
-import React, {useState} from 'react'
+import React, { useState } from "react"
 
 const showterms = {
   "show":"New Girl",
@@ -11,7 +11,7 @@ const showterms = {
 }
 
 function App() {
-  let [displayComponents, setDisplayComponents] = useState(-1)
+  let [displayComponent, setDisplayComponent] = useState(-1)
   let components = [<ShortBio data={showterms}></ShortBio>,<SomePosts></SomePosts>]
   return (
     (displayComponent !== -1 ?
