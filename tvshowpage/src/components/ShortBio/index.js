@@ -8,7 +8,7 @@ export default class ShortBio extends React.Component {
             <h2>{this.props.data.show}</h2>
             <img src="/img/newGirlPic.jpeg" alt="New Girl Cast" width="50%"></img>
             <p>{this.props.data.show} is an American sitcom from {this.props.data.year} with {this.props.data.seasons} seasons.</p>
-            <p>Along with this knowledge, my favorite character from it is {this.props.data.mainCharacter}.</p>
+            <p>My favorite character from it is {this.props.data.mainCharacter}.</p>
         </>
         )
     }
