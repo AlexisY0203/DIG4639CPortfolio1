@@ -17,7 +17,7 @@ function App() {
     (displayComponent !== -1 ?
       <div className="App">
       {displayComponent !== -1 ? components[displayComponent] : undefined}
-      <button onClick={() => setDisplayComponent(-1)}>Back</button>
+      <p>Return to Home: <button onClick={() => setDisplayComponent(-1)}>Back</button></p>
       </div>
     :
       <div className="App">
